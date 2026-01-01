@@ -1,4 +1,4 @@
-# NYC 311 Service DASHBOARD
+# NYC 311 Service Dashboard
 
 ## Project Overview
 A complete data analytics system built for analyzing municipal service disparities across New York City neighborhoods. Processes 2GB+ of 311 service requests on 2024 to identify zip codes with significantly longer response times.
