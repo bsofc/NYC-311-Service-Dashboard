@@ -6,9 +6,8 @@ A complete data analytics system built for analyzing municipal service dispariti
 ## Quick Start
 
 # Install
-git clone https://github.com/yourusername/nyc311-analytics
-cd nyc311-analytics
-pip install -r requirements.txt
+git clone https://github.com/bsofc/NYC311-Service-Dashboard
+cd NYC311-Service-Dashboard
 
 # Run dashboard
 bokeh serve src/dashboard.py --show
