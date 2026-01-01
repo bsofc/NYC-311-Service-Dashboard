@@ -5,14 +5,14 @@ A complete data analytics system built for analyzing municipal service dispariti
 
 ## Quick Start
 
-# Install
+### Install
 git clone https://github.com/bsofc/NYC311-Service-Dashboard
 cd NYC311-Service-Dashboard
 
-# Run dashboard
+### Run dashboard
 bokeh serve src/dashboard.py --show
 
-# Use CLI tool
+### Use CLI tool
 python src/borough_complaints.py -h
 
 ## What It Does
@@ -32,10 +32,10 @@ python src/borough_complaints.py -h
 - Git, Jupyter, data visualization
 
 ## Project Structure
-src/dashboard.py           # Interactive dashboard
-src/borough_complaints.py  # CLI tool
-data/                      # Processed data files
-
+- `src/dashboard.py` - Interactive dashboard
+- `src/borough_complaints.py` - CLI tool
+- `data/` - Processed data files
+  
 ## How It Works
 1. Load 311 service request data
 2. Filter and process records
