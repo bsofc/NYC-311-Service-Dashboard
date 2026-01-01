@@ -1,0 +1,9 @@
+.ipynb_checkpoints/
+__pycache__/
+
+data/*.csv
+!data/monthly_all_averages.csv
+!data/monthly_zip_averages.csv
+nyc_311_2024.csv
+jan_feb_counts_sorted.csv
+jun_jul_counts_sorted.csv
