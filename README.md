@@ -3,12 +3,43 @@
 ## Project Overview
 A complete data analytics system built for analyzing municipal service disparities across New York City neighborhoods. Processes 2GB+ of 311 service requests on 2024 to identify zip codes with significantly longer response times.
 
-## Features
-- **CLI Analytics Tool**: `borough_complaints.py` for command-line data exploration
-- **Interactive Dashboard**: Bokeh-based visualization comparing response times
-- **AWS Deployment**: EC2 instance with automated processing pipeline
+## Quick Start
+
+# Install
+git clone https://github.com/yourusername/nyc311-analytics
+cd nyc311-analytics
+pip install -r requirements.txt
+
+# Run dashboard
+bokeh serve src/dashboard.py --show
+
+# Use CLI tool
+python src/borough_complaints.py -h
+
+## What It Does
+- **CLI Tool**: Analyze complaint data by date range and borough
+- **Dashboard**: Compare service response times across zip codes
+- **Processing**: Handles 500,000+ records efficiently
+
+## Key Features
+- Interactive Bokeh dashboard with real-time filtering
+- Command-line tool for data exploration
+- Identifies neighborhoods with 40%+ longer response times
+- Deployed on AWS EC2
 
 ## Technical Stack
 - Python (pandas, Bokeh, argparse)
 - AWS EC2, Linux command line
 - Git, Jupyter, data visualization
+
+## Project Structure
+src/dashboard.py           # Interactive dashboard
+src/borough_complaints.py  # CLI tool
+data/                      # Processed data files
+
+## How It Works
+1. Load 311 service request data
+2. Filter and process records
+3. Compute response time averages
+4. Display in interactive dashboard
+5. Compare neighborhoods
