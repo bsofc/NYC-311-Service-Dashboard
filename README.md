@@ -13,7 +13,4 @@ A complete data analytics system built for analyzing municipal service dispariti
 - AWS EC2, Linux command line
 - Git, Jupyter, data visualization
 
-## Key Insights
-- Zip code 10451 shows 40% longer average response times
-- Seasonal patterns in complaint volumes
-- Actionable recommendations for service allocation
+
