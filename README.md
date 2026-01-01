@@ -1,18 +1,19 @@
-## NYC311 Service Analytics System
+# NYC 311 Service Equity Analytics
 
-A complete data analytics solution developed for municipal service equity analysis.
+## Project Overview
+A complete data analytics system built for analyzing municipal service disparities across New York City neighborhoods. Processes 2GB+ of 311 service requests to identify zip codes with significantly longer response times.
 
-### Features
-- **CLI Tool**: `borough_complaints.py` for command-line data analysis
-- **Interactive Dashboard**: Compare service response times across zip codes
-- **Cloud Deployment**: AWS EC2 with Jupyter for development
+## Features
+- **CLI Analytics Tool**: `borough_complaints.py` for command-line data exploration
+- **Interactive Dashboard**: Bokeh-based visualization comparing response times
+- **AWS Deployment**: EC2 instance with automated processing pipeline
 
-### Technical Stack
+## Technical Stack
 - Python (pandas, Bokeh, argparse)
-- AWS EC2, Linux command-line tools
+- AWS EC2, Linux command line
 - Git, Jupyter, data visualization
 
-### Key Insights
-- Identified zip codes with 40%+ longer response times
-- Seasonal patterns in complaint types
-- Disparities in service allocation across neighborhoods
+## Key Insights
+- Zip code 10451 shows 40% longer average response times
+- Seasonal patterns in complaint volumes
+- Actionable recommendations for service allocation
